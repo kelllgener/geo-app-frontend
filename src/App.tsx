@@ -4,12 +4,13 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-  <>
-  <Routes>
-      <Route path="/login" element={<Login />} />
-      <Route path="/home" element={<Home />} />
-    </Routes>
-  </>
+    <>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/home" element={<Home />} />
+      </Routes>
+    </>
   );
 }
 
